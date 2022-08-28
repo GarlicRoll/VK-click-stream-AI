@@ -1,19 +1,10 @@
 import pandas as pd
-import time
-import numpy as np
-from googletrans import Translator
-from scipy import spatial
-import gensim.downloader as api
+
 from gensim.models import KeyedVectors
 import numpy as np
 import pymystem3
 from scipy import spatial
 import spacy
-
-import gensim
-
-from deep_translator import GoogleTranslator
-
 
 from tqdm import tqdm
 
