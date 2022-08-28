@@ -1,18 +1,16 @@
 import pandas as pd
-import time
+
 import numpy as np
-from googletrans import Translator
+
 from scipy import spatial
-import gensim.downloader as api
 from gensim.models import KeyedVectors
 import numpy as np
 import pymystem3
 
 import spacy
 
-import gensim
 from tqdm import tqdm
-from deep_translator import GoogleTranslator
+
 m2 = pymystem3.Mystem()
  #choose from multiple models https://github.com/RaRe-Technologies/gensim-data
 
